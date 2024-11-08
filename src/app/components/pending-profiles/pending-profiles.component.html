@@ -1,0 +1,31 @@
+<div class="profiles-container">
+    <ng-container *ngFor="let profile of profiles; let i = index">
+      <mat-card
+        *ngIf="i >= currentProfileIndex"
+        class="profile-card"
+        [@cardSwiper]="i === currentProfileIndex ? swipeState : 'default'"
+        [style.zIndex]="profiles.length - i">
+
+        <img mat-card-image [src]="profile.image" alt="Profile Image">
+
+        <mat-card-content>
+          <h3>{{ profile.name }}</h3>
+          <p>{{ profile.age }} Yrs, {{ profile.height }}, {{ profile.caste }}</p>
+          <p>{{ profile.education }}, {{ profile.profession }}</p>
+          <p>{{ profile.location }}</p>
+        </mat-card-content>
+
+        <mat-card-actions>
+          <button mat-icon-button color="primary" (click)="showInterest(true)">
+            <mat-icon>thumb_up</mat-icon>
+          </button>
+          <button mat-icon-button color="warn" (click)="showInterest(false)">
+            <mat-icon>thumb_down</mat-icon>
+          </button>
+          <button mat-icon-button (click)="shortlist()">
+            <mat-icon>star</mat-icon>
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </ng-container>
+  </div>

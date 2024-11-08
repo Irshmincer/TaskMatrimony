@@ -1,0 +1,45 @@
+// .profile-card {
+//     position: absolute;
+//     width: 100%;
+//     max-width: 400px;
+//     transition: transform 0.5s ease, opacity 0.5s ease;
+//   }
+
+//   .profiles-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     position: relative;
+//     height: 100vh;
+//   }
+
+//   .profile-card {
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+// }
+
+// @media (max-width: 600px) {
+//     .profile-card {
+//         max-width: 90%;  /* Adjusts for smaller screens */
+//     }
+// }
+
+// .profile-card:hover {
+//     transform: scale(1.05);  /* Slightly enlarges the card on hover */
+//     transition: transform 0.3s ease;  /* Faster transition on hover */
+// }
+
+
+.profile-card {
+    position: absolute;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+
+  .profiles-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+  }

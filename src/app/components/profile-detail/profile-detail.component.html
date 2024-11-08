@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="goBack()">
+      <mat-icon>arrow_back</mat-icon>
+    </button>
+    <span>Profile Details</span>
+  </mat-toolbar>
+
+  <div *ngIf="profile" style="display: flex;
+  justify-content: start;margin-top: 10px;padding: 20px;
+ ">
+    <mat-card>
+      <img width="100" mat-card-image [src]="profile.image" alt="Profile Image">
+      <mat-card-content>
+        <h3>{{ profile.name }}</h3>
+        <p>{{ profile.age }} Yrs, {{ profile.height }}, {{ profile.caste }}</p>
+        <p>{{ profile.education }}, {{ profile.profession }}</p>
+        <p>{{ profile.location }}</p>
+      </mat-card-content>
+    </mat-card>
+  </div>

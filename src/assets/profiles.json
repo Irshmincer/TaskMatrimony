@@ -1,0 +1,38 @@
+[
+    {
+      "id": "M9837832",
+      "name": "James",
+      "age": 27,
+      "height": "6 ft 2 in",
+      "caste": "Tamil, Nair",
+      "education": "B.Tech",
+      "profession": "Engineer",
+      "location": "Chennai, Tamil Nadu, India",
+      "image":"../../../assets/boy1.png"
+
+    },
+    {
+      "id": "M9837833",
+      "name": "Dinesh",
+      "age": 26,
+      "height": "5 ft 1 in",
+      "caste": "Tamil, Nair",
+      "education": "MBBS",
+      "profession": "Doctor",
+      "location": "Chennai, Tamil Nadu, India",
+      "image":"../../../assets/boy2.png"
+
+    },
+    {
+      "id": "M9837834",
+      "name": "Pragati",
+      "age": 27,
+      "height": "5 ft 5 in",
+      "caste": "Poosam, Hindu - Kayastha",
+      "education": "MBBS",
+      "profession": "Doctor",
+      "location": "Chennai, Tamil Nadu, India",
+      "image":"../../../assets/girl4.png"
+
+    }
+  ]
